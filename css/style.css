@@ -1,0 +1,82 @@
+﻿body {
+	background-color: #212132;
+	margin: 0;
+	padding: 0;
+	font-family: 'Muli';
+}
+
+#head {
+	color: #f4f4f4;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+	word-spacing: 0.1rem;
+	background-color: steelblue;
+	margin: 0;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 20px 0;
+}
+#head::selection, span::selection, button::selection {
+	color: lightgreen;
+	background-color: none;
+}
+
+#colorDisplay {
+	font-size: 200%;
+	color: lightgreen;
+}
+
+#container {
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+.squares {
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 30px;
+	transition: background 1s;
+}
+
+#stripe {
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	height: 30px;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+	font-weight: 700;
+	text-transform: uppercase; 
+	color: lightblue;
+}
+
+.selected {
+	background-color: steelblue;
+	color: #f4f4f4;
+}
+
+button {
+	border: none;
+	background: none;
+	outline: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	font-size: inherit;
+	transition: all 1s;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: steelblue;
+	color: #f4f4f4;
+}
+
